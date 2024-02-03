@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Page</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./assets/img/Logo Blanco Redondo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo" id="home">
+                    <h2><span class="amarillo">Co</span><span class="azul">lom</span><span class="rojo">bia</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#chef">Chef</a>
+                    <a href="#contact">Contact Us</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Adriandev's restaurant</h2>
+                    <a href="#" class="btn bordes">Our Menu</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="/assets/bg_video.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor" id="about">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Welcome to!</p>
+            <h1>Typical Colombian Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, fugiat delectus porro suscipit
+                architecto ab impedit accusantium quod voluptate quaerat odio sunt quisquam odit, sapiente aut esse
+                possimus nulla totam!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate eveniet placeat nesciunt harum
+                similique ab, illo debitis ullam ipsa labore quidem vitae sunt et quasi veritatis? Excepturi ex non
+                cumque.
+            </p>
+            <a href="#" class="btn btn-rojo">Contact Us</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/About1.jpg" alt="People-Eat">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/About2.jpg" alt="">
+                <img data-src="assets/img/almuerzos.jpg" alt="Typical Food">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor" id="menu">
+        <h2 class="texto-platillos">Typical dishes</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">All</button>
+            <button class="ensaladas btn btn-verde">Paisa Food</button>
+            <button class="pasta btn btn-verde">Seafood</button>
+            <button class="pizza btn btn-verde">Breakfast</button>
+            <button class="postres btn btn-verde">Drinks</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="bandejaPaisa">
+                <img data-src="assets/img/bandeja paisa 2.jpg" alt="Bandeja Paisa">
+                <h2>Bandeja Paisa</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, deserunt?.</p>
+                <div class="precio">
+                    <p>$10.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="bandejaPaisa">
+                <img data-src="assets/img/bandeja paisa 1.jpg" alt="Bandeja Paisa">
+                <h2>Bandeja Paisa</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, deserunt?.</p>
+                <div class="precio">
+                    <p>$10.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="bandejaPaisa">
+                <img data-src="assets/img/bandeja paisa 2.jpg" alt="Bandeja Paisa">
+                <h2>Bandeja Paisa</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, deserunt?.</p>
+                <div class="precio">
+                    <p>$20.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="seaFood">
+                <img data-src="assets/img/sea food 1.jpg" alt="Seafood">
+                <h2>Sea Food</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="seaFood">
+                <img data-src="assets/img/sea food 1.jpg" alt="Seafood">
+                <h2>Sea Food</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="breakfast">
+                <img data-src="assets/img/sea food 1.jpg" alt="Seafood">
+                <h2>Sea Food</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                <div class="precio">
+                    <p>$10.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="breakfast">
+                <img data-src="assets/img/breakfast.jpg" alt="Breakfast">
+                <h2>Breakfast</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                <div class="precio">
+                    <p>$20.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="breakfast">
+                <img data-src="assets/img/breakfast.jpg" alt="Breakfast">
+                <h2>Breakfast</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="breakfast">
+                <img data-src="assets/img/breakfast2.jpg" alt="Breakfast">
+                <h2>Breakfast</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                <div class="precio">
+                    <p>$30.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="postre">
+                <h2>Desserts</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="postre">
+                <h2>Desserts</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="postre">
+                <h2>Desserts</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Colombian Food</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloribus optio ad iure tempore? Labore, odio!
+            </p>
+            <a href="#" class="btn btn-verde">Order Now</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor" id="chef">
+        <h2>Executive Chef</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La exelencia está en la diversidad y el modo de progresar
+                    es conocer y comparar las diversidades de productos, culturas y
+                    técnicas
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corporis dolores eveniet
+                    vitae,
+                    natus tempora recusandae hic laborum error ducimus repellat, laudantium temporibus tenetur totam
+                    sint
+                    consequuntur eligendi! Asperiores, ad.</p>
+                <a href="#" class="btn btn-verde">Read Biography</a>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="/assets/img/Chef.png" alt="fotografia del chef">
+            </div>
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto" id="contact">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-map-marker-alt"></i>Manizales Colombia</p>
+            <p><i class="fas fa-envelope"></i> ospinaadrian784@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>+57 3054265021</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Name</label>
+                <input type="text" placeholder="Pedro" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Last Name</label>
+                <input type="text" placeholder="Pedro" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Email</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Phone</label>
+                <input type="tel" placeholder="+57 3054265021" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Message</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Location</h3>
+                <p>Colombia - Manizales</p>
+            </div>
+            <div class="info">
+                <h3>Special Days</h3>
+                <p>Wednesday y Friday 7am - 11pm</p>
+                <p>+57 3054265021</p>
+            </div>
+            <div class="info">
+                <h3>Schedules</h3>
+                <p>Monday - Sunday 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>News</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <input type="email" placeholder="Email">
+                <input type="submit" class="btn btn-verde" value="Suscribe">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Adrian Dev</p>
+        <img data-src="./assets/img/Logo Blanco Redondo.png" alt="logo" class="logo-footer">
+    </footer>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
