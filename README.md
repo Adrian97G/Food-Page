@@ -2,7 +2,7 @@
 
 ## :page_with_curl: Description
 
-
+This is a page with corresponding information about the services and information of a restaurant.
 
 ## :hammer_and_wrench: Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## :camera_flash: Project Image
 
-![My Project]()
+![My Project](https://github.com/Adrian97G/Food-Page/blob/main/img/food%20page.png)
 
 ## :link: Link to see the project in action
 
